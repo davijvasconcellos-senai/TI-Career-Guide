@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+div#interface {
+    position: relative;
+    background-color: #fff;
+    width: 1555px;
+    margin: -15px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 10px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 sold;
+    height: 260px;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    color: #606060;
+    font-size: 30pt;
+    text-shadow: 1px 1px 1px rbga(0,0,0, 0.6);
+    padding: -20px;
+    margin-bottom: -200px;
+    position: absolute;
+    top: 170px;
+}
+
+p {
+    text-align: justify;
+    text-ident: 50px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-size: 15pt;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img#icone {
+    position: absolute;
+    left: -35px;
+    top: -55px;
+    width: 400px;
+}
+
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -16px;
+    right: 25px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1.5s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav# a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+}
+
+article#pagina-inicial h1 {
+    font-size: 20pt;
+    color: #222;
+    background-color: #b1b1b1;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+article#pagina-inicial h2 {
+    font-size: 15pt;
+    color: #222;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+hgroup#cabecalho-noticia-principal h1 {
+    font-family: Arial, sans serif;
+    font-size: 20pt;
+    color: #606060;
+    margin: 0px;
+    background-color: #fff;
+    padding: 0px;
+}
+
+ul#corpo-lista {
+    font-family: 'Berlin Sans FB', sans-serif;
+}
+

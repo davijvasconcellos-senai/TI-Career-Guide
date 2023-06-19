@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="_css/fale-conosco.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>TI Career Guide</h1>
+                <h2>Explore o Mundo da Tecnologia</h2>
+            </hgroup>
+            <img id="icone" src="_imagens/icone-contato.png"/>
+            <img id="foto" src="-imagens/logo-site.png">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="engenheiro-de-dados.html">Engenheiro de Dados</a></li>
+                    <li><a href="desenvolvedor-ia.html">Desenvolvedor de IA</a></li>
+                    <li><a href="especialista-seguranca.html"> Especialista em Segurança Cibernética</a></li>
+                    <li><a href="sobre-autor.html">Sobre o Autor</a></li>
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+            <article id="noticia-principal">
+					<hgroup id="cabecalho-noticia-principal">
+                        <h3>TI Career Guide > Contato</h3>
+                        <h1>Formulário de Contato</h1>
+                    </hgroup>
+
+                <form method="post" id="idcontato" action="mailto:davijvasconcellos@gmail.com">
+
+                    <fieldset id="idusuario">
+                        <legend>Identificação do Usuário</legend>
+                        <p><label for="idnome">Nome:</label><input type="text" name="nnome" id="idnome" size="20" maxlength="40" placeholder="nome completo"></p>
+                        <p><label for="idemail">E-mail:</label><input type="email" name="nemail" id="idemail" size="20" maxlength="40"></p>
+                    </fieldset>
+
+                    <fieldset id="idmensagem">
+                        <legend>Mensagem do Usuário</legend>
+                        <p><label for="idmsg">Mensagem:</label>
+								<textarea name="nMsg" id="idmsg" cols="45" rows="5" maxlength="250" placeholder="deixe aqui a sua mensagem"></textarea>
+							</p>
+						</fieldset>
+
+                        <input type="image" src="_imagens/botao-enviar.png" name="nEnviar">
+
+                </form>
+
+            </article>
+        </section>
+
+        <footer id="rodape" >
+            <p>Copyright&copy - by Davi Vasconcellos</p>
+        </footer>
+</div>
+</body>
+</html>
